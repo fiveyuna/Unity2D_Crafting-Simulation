@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: My Table Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: My Table
+  m_TableCollectionNameGuidString: 2da90e91e6745a642871f394216d5e1a
+  m_Entries:
+  - m_Id: 3884895428608
+    m_Key: UI-NextDay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4073597165568
+    m_Key: RegionInfo-header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7196457820160
+    m_Key: Setting-header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8119561216000
+    m_Key: Setting-control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8384070803456
+    m_Key: Setting-sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8686387847168
+    m_Key: Setting-info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9116538888192
+    m_Key: Setting-start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9505233428480
+    m_Key: Setting-quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 477079431798784
+    m_Key: Setting-Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 753349365678080
+    m_Key: UI-BtnStart-NoData
+    m_Metadata:
+      m_Items: []
+  - m_Id: 756590744780800
+    m_Key: UI-BtnLoad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 758518560145408
+    m_Key: UI-CraftBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759629866156032
+    m_Key: UI-StudyBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762448929177600
+    m_Key: UI-NoteBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762940702932992
+    m_Key: UI-AdvBtn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766101475901440
+    m_Key: UI-Get Button
+    m_Metadata:
+      m_Items: []
+  - m_Id: 769914836434944
+    m_Key: UI-To the diary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 774632753152000
+    m_Key: UI-Inpo_Panel-Header
+    m_Metadata:
+      m_Items: []
+  - m_Id: 796036043194368
+    m_Key: UI-Inpo_Panel-Header (1)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 797970191958016
+    m_Key: UI-Inpo_Panel-Forest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 798625010892800
+    m_Key: UI-Inpo_Panel-Forest-inpo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 800515266265088
+    m_Key: UI-Inpo_Panel-a winter sea-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 801249315602432
+    m_Key: UI-Inpo_Panel-a winter sea-inpo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802273220706304
+    m_Key: UI-Inpo_Panel-Mine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802693640962048
+    m_Key: UI-Inpo_Panel-Mine-Inpo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808589653786624
+    m_Key: UI-Popup Panel-the lifting of research tools
+    m_Metadata:
+      m_Items: []
+  - m_Id: 809819801206784
+    m_Key: UI-Completion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832982400450560
+    m_Key: UI-Study-diagnosis-basic1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 833730169356288
+    m_Key: UI-Study-diagnosis-basic2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 833919978389504
+    m_Key: UI-Study-diagnosis-basic3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834279799341056
+    m_Key: UI-Study-diagnosis-main1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 835049735143424
+    m_Key: UI-Study-diagnosis-main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 836365693829120
+    m_Key: UI-Study-diagnosis-adv-depth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837520125673472
+    m_Key: 'UI-Study-diagnosis-adv-Event '
+    m_Metadata:
+      m_Items: []
+  - m_Id: 839501141590016
+    m_Key: Choose-Button1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 840351868076032
+    m_Key: Choose-Button2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 840704940392448
+    m_Key: Choose-Button3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 841139730333696
+    m_Key: Choose-Button4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 844357168349184
+    m_Key: UI-CancleButton-Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845385276145664
+    m_Key: Result Popup-Button-Ok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850333204299776
+    m_Key: Text_ChooseDifficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1156679216390144
+    m_Key: Start-Popup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1157428461690880
+    m_Key: UI-Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1157563216289792
+    m_Key: UI-No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1158439259594752
+    m_Key: Main-Popup-NextDay1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1158578258829312
+    m_Key: Main-Popup-NextDay2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159296986374144
+    m_Key: Adv-DepthProgress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161010959343616
+    m_Key: Dialogue-Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161143650344960
+    m_Key: Dualogue-Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161531048845312
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161533825474560
+    m_Key: Study-Diagnosis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161986999050240
+    m_Key: Study-SlotText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1245797401223168
+    m_Key: Tutorial-Popup
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1255818855964672
+    m_Key: Adv-EndLoad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256042890518528
+    m_Key: Adv-NoEnergy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256048431194112
+    m_Key: Adv-GetText
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256185341665280
+    m_Key: Adv-FullInven
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599018162446336
+    m_Key: Study-DiagDone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599093437620224
+    m_Key: Study-Fail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599247368577024
+    m_Key: Study-Success
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599252863115264
+    m_Key: Study_Cancle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730881027825664
+    m_Key: app_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1878591999565824
+    m_Key: Craft-complete-notice
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1879308172779520
+    m_Key: Craft-info1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1879327923757056
+    m_Key: Craft-info2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1885191527194624
+    m_Key: Adv-KeyInfo-
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1885253670002688
+    m_Key: Adv-KeyInfo-1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1885334670401536
+    m_Key: Adv-KeyInfo-2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1886545536606208
+    m_Key: Adv-KeyInfo-Short
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 8220493823848480793
+  references:
+    version: 2
+    RefIds:
+    - rid: 8220493823848480793
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1693189321257

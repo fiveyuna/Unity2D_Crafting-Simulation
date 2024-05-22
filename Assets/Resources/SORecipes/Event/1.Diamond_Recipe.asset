@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f7691877a868044b4edef2a2dc746a, type: 3}
+  m_Name: 1.Diamond_Recipe
+  m_EditorClassIdentifier: 
+  id: 1
+  outputItem: {fileID: 11400000, guid: e11a84c1e0193944b8e23a1073dd88f8, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 0386effe07fb7cf40bba0cd8e213800a, type: 2}
+  - {fileID: 11400000, guid: 0386effe07fb7cf40bba0cd8e213800a, type: 2}
+  - {fileID: 11400000, guid: e8ec8e6c5a5784d4dbcbc2e2bcc110bf, type: 2}
+  - {fileID: 11400000, guid: 70b5688e4c75c75449868c49ff8e1e33, type: 2}
+  type: 5
+  recipeDesc: "\uBAA9\uD0C4x2+\uCCA0x1+\uAE08x1"

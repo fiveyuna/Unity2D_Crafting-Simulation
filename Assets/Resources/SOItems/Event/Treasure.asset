@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20558dc8d7ad52547adaddc19a56466d, type: 3}
+  m_Name: Treasure
+  m_EditorClassIdentifier: 
+  itemId: Treasure
+  itemName: "\uBCF4\uBB3C"
+  itemName_en: Treasure
+  itemDesc: "\uD76C\uADC0\uD55C \uBCF4\uBB3C\uB4E4\uC774 \uAC00\uB4DD \uB2F4\uACA8\uC788\uB2E4.
+    \uB204\uAD70\uAC00\uAC00 \uB9E4\uC6B0 \uC6D0\uD558\uC9C0\uB9CC, \uB204\uAD70\uAC00\uC5D0\uAC90
+    \uD544\uC694\uC5C6\uB2E4."
+  itemDesc_en: Rare treasure is filled with rare treasure. Someone wants someone,
+    but I don't need for someone.
+  itemType: 4
+  stackable: 1
+  image: {fileID: 21300042, guid: 70cc3e8406f29d34ab8e7b5bb2cfae2e, type: 3}

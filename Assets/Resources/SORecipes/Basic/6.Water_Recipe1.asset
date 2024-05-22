@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f7691877a868044b4edef2a2dc746a, type: 3}
+  m_Name: 6.Water_Recipe1
+  m_EditorClassIdentifier: 
+  id: 6
+  outputItem: {fileID: 11400000, guid: c873e5fab385aae459524e6ded1fa7cb, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: fe08a8d0c57a6e94ba3bdf5c47bfaef2, type: 2}
+  - {fileID: 11400000, guid: 580e44b99fbd3fb4192f4e6641bea222, type: 2}
+  type: 1
+  recipeDesc: "\uAF43\uD544\uD130x1+\uBC14\uB2F7\uBB3Cx1"

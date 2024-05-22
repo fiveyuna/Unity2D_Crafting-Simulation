@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: DoorWipe
+  m_Controller: {fileID: 9100000, guid: 155d5209f72f742fb95b2c1069f78792, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: ab5d83341db164cebacf208844f6d1b4, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e997f3c32fb6744289c6b666b96d6ca0, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 290c273c63ee443d79311f20867d8a1b, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 2ba5e34592fd14118b5eec6775511628, type: 2}

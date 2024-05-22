@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20558dc8d7ad52547adaddc19a56466d, type: 3}
+  m_Name: GlovesOfMana
+  m_EditorClassIdentifier: 
+  itemId: GlovesOfMana
+  itemName: "\uB9C8\uB098\uC7A5\uAC11"
+  itemName_en: Mana Gloves
+  itemDesc: "\uD2B9\uBCC4\uD55C \uD798\uC774 \uB290\uAEF4\uC9C0\uB294 \uC7A5\uAC11\uC774\uB2E4.
+    \uC774 \uC7A5\uAC11\uC744 \uCC29\uC6A9\uD558\uACE0 \uB208\uC744 \uD30C\uD5E4\uCE58\uBA74
+    \uB208 \uC18D\uC5D0\uC11C \uB9C8\uB098\uB97C \uB2F4\uACE0 \uC788\uB294 \uACB0\uC815\uC744
+    \uC5BB\uC744 \uC218 \uC788\uB2E4. \uBB3C\uB860 \uB208\uC0AC\uB78C \uB9CC\uB4E4\uAE30\uB3C4
+    \uC88B\uB2E4."
+  itemDesc_en: It's a glove that feels special. If you wear these gloves and dig
+    into your eyes, you can get a crystal containing mana in the snow. Of course,
+    making a snowman is also good.
+  itemType: 4
+  stackable: 1
+  image: {fileID: 21300042, guid: 70cc3e8406f29d34ab8e7b5bb2cfae2e, type: 3}

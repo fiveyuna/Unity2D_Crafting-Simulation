@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89f7691877a868044b4edef2a2dc746a, type: 3}
+  m_Name: 3.Treasure_Recipe
+  m_EditorClassIdentifier: 
+  id: 3
+  outputItem: {fileID: 11400000, guid: 46fb04c0a45996447a74690b00cf35f0, type: 2}
+  ingredients:
+  - {fileID: 11400000, guid: 14d8def4bc3dc1b48ba48559278c0c78, type: 2}
+  - {fileID: 11400000, guid: 70b5688e4c75c75449868c49ff8e1e33, type: 2}
+  - {fileID: 11400000, guid: e8ec8e6c5a5784d4dbcbc2e2bcc110bf, type: 2}
+  - {fileID: 11400000, guid: 00a647efc52a40748be1cc78258a9663, type: 2}
+  type: 5
+  recipeDesc: "\uD1B5\uB098\uBB34x1+\uAE08x1+\uCCA0x1+\uC870\uAC1C\uAECD\uB370\uAE30x1"

@@ -1,0 +1,337 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: My Table_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2da90e91e6745a642871f394216d5e1a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 3884895428608
+    m_Localized: NextDay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4073597165568
+    m_Localized: Items by region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7196457820160
+    m_Localized: Setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8119561216000
+    m_Localized: Game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8384070803456
+    m_Localized: Sound
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8686387847168
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9116538888192
+    m_Localized: start screen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 9505233428480
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 477079431798784
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 753349365678080
+    m_Localized: New Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 756590744780800
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 758518560145408
+    m_Localized: Craft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 759629866156032
+    m_Localized: Decrypt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762448929177600
+    m_Localized: Recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 762940702932992
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 766101475901440
+    m_Localized: Get
+    m_Metadata:
+      m_Items: []
+  - m_Id: 769914836434944
+    m_Localized: To the diary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 774632753152000
+    m_Localized: Ingredients Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 796036043194368
+    m_Localized: 'You can get new items depending on the depth
+
+      - Depth level
+      1: 0-10
+
+      - Depth level 2:11-20
+
+      - Depth level 3:21-30'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 797970191958016
+    m_Localized: < Forest >
+    m_Metadata:
+      m_Items: []
+  - m_Id: 798625010892800
+    m_Localized: 'Depth level 1:Fire, branches, flowers
+
+      Depth level 2:sugarcane,
+      logs
+
+      Depth level 3:manish'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 800515266265088
+    m_Localized: < Winter sea >
+    m_Metadata:
+      m_Items: []
+  - m_Id: 801249315602432
+    m_Localized: 'Depth level 1:Sand, seawater, shells
+
+      Depth level 2:Ice,
+      seaweed, salt
+
+      Depth level 3:ManaCrystal'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802273220706304
+    m_Localized: < Mine >
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802693640962048
+    m_Localized: 'Depth level 1:Copper ore, stone, oil, fire
+
+      Depth level 2:
+      Iron ore
+
+      Depth level 3:Gold ore'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 808589653786624
+    m_Localized: Research Unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 809819801206784
+    m_Localized: Complete
+    m_Metadata:
+      m_Items: []
+  - m_Id: 832982400450560
+    m_Localized: Basic Recipe 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 833730169356288
+    m_Localized: Basic Recipe 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 833919978389504
+    m_Localized: Basic Recipe 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 834279799341056
+    m_Localized: Research Recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 835049735143424
+    m_Localized: Research Recipe2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 836365693829120
+    m_Localized: Area Key Recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 837520125673472
+    m_Localized: Gift Recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 839501141590016
+    m_Localized: I can count.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 840351868076032
+    m_Localized: "I can add \nand subtract."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 840704940392448
+    m_Localized: "I can multiply \nand divide."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 841139730333696
+    m_Localized: "I can fractions \nand prime numbers."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 844357168349184
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 845385276145664
+    m_Localized: Check
+    m_Metadata:
+      m_Items: []
+  - m_Id: 850333204299776
+    m_Localized: Choose a difficulty level!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1156679216390144
+    m_Localized: 'Data will be initialized.
+
+      Do you want to start?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1157428461690880
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1157563216289792
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1158439259594752
+    m_Localized: Would you like to sleep?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1158578258829312
+    m_Localized: (The energy is initialized as we move on to the next day.)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1159296986374144
+    m_Localized: "Adventure Progress\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161010959343616
+    m_Localized: Next
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161143650344960
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161533825474560
+    m_Localized: Diagnosing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1161986999050240
+    m_Localized: Drag the answer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1245797401223168
+    m_Localized: 'Do you want to
+
+      play Tutorial?'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1255818855964672
+    m_Localized: Reached a dead end.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256042890518528
+    m_Localized: Used up all energy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256048431194112
+    m_Localized: ', got it!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1256185341665280
+    m_Localized: Inventory is full.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599247368577024
+    m_Localized: Obtained the Recipe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599093437620224
+    m_Localized: Failed to acquire Recipe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599018162446336
+    m_Localized: Diagnostic assessment completed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1599252863115264
+    m_Localized: Do you want to end the Decryption?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1730881027825664
+    m_Localized: Alchemist Recipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1878591999565824
+    m_Localized: '* Complete *
+
+      Move on to the ending.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1879308172779520
+    m_Localized: Create one or more combination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1879327923757056
+    m_Localized: 'Click the +1, -1 button to lock the slot.
+
+
+
+      If you want
+      to modify the item
+
+      <b>Press Refresh </b>!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1885191527194624
+    m_Localized: Adventure Key Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1885253670002688
+    m_Localized: 'Open the <b>bag</b>
+
+      Please <b>drag</b>
+
+      the item corresponding
+      to the slot!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1885334670401536
+    m_Localized: 'Lower <b>scroll </b>
+
+      to <b>unlock</b> mining area!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1886545536606208
+    m_Localized: Unlock Info
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
