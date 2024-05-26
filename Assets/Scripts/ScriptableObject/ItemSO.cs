@@ -6,11 +6,10 @@ using UnityEngine;
 public class ItemSO : ScriptableObject
 {
     [Header("Only GamePlay")]
-    // public int slotType;
     public string itemId; // 고유의 값. 저장된 객체 이름. 영어로 작성
     public string itemName;
     public string itemName_en;
-    // public int amount;
+
     [TextArea] public string itemDesc;
     [TextArea] public string itemDesc_en;
     public ItemType itemType;

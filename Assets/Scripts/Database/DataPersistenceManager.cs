@@ -58,23 +58,8 @@ public class DataPersistenceManager : MonoBehaviour
     public void OnSceneLoaded(Scene scene, LoadSceneMode mode) {
         this.dataPersistenceObjects = FindAllDataPersistenceObjects();
 
-        // *TODO* : 정체불명의 코드... 
-        // if (isNew) {
-        //     isStart = scene.name == "Start" || scene.name == "Dialogue" ? true : false;
-
-        //     if (!isStart) {
-        //         inventoryManager = FindObjectOfType<InventoryManager>();
-        //         if (inventoryManager == null) {
-        //             Debug.LogError("There is no inventoryManager.");
-        //         }
-        //     }
-            
-        // }
-
         // If Scene 'Craft' -> Move inventory to craft
         if (scene.name == "Craft") {
-            // Debug.Log("[Test] craft in");
-
             isDefaultInventory = false;
 
             inventoryManager.InventoryItemListToDataList();
@@ -116,10 +101,6 @@ public class DataPersistenceManager : MonoBehaviour
         isStart = true;
         this.gameData = new GameData();
     }
-
-    // public void LoadStartScene() {
-    //     // TODO : Save Initialization Data, dontdestroy ui 처리
-    // }
 
     public void LoadGame() {
         // 데이터 핸들러를 이용해 저장된 데이터 불러오기
@@ -170,9 +151,6 @@ public class DataPersistenceManager : MonoBehaviour
         }
 
         if (isQuit || isNew || isStart) {
-            // if (isDefaultInventory) { // @ check craft scene
-            //     inventoryManager.InventoryItemListToDataList();
-            // }
 
             Debug.Log("[Test] SaveGame() ");
 
@@ -198,11 +176,6 @@ public class DataPersistenceManager : MonoBehaviour
     private List<IDataInitialization> FindAllDataInitializationObjects() {
         IEnumerable<IDataInitialization> dataInitializations = FindObjectsOfType<MonoBehaviour>()
             .OfType<IDataInitialization>();
-
-        // Debug.Log("=== TEST ===");
-        // foreach (IDataInitialization dataInitialization in dataInitializations) {
-        //     Debug.Log("dataInitial.. : " + dataInitialization);
-        // }
 
         return new List<IDataInitialization>(dataInitializations);
 

@@ -403,17 +403,14 @@ public class AdventureManager : MonoBehaviour, IDataPersistence
     public void LoadData(GameData data)
     {
         depth = data.advDepth[advIndex];
-
         // Set depth value from data
         depthSlider.value = depth;
-
         this.storyProgress = data.storyProgress;
     }
 
     public void SaveData(GameData data)
     {
         data.advDepth[advIndex] = depth;
-
         data.storyProgress = this.storyProgress;
     }
 }

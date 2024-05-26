@@ -27,7 +27,7 @@ public class DialogueTrigger : MonoBehaviour
         // dialogueVariables = new DialogueVariables(loadGlobalsJSON);
 
         int localIndex = PlayerPrefs.HasKey("Locale") ? PlayerPrefs.GetInt("Locale") : 1;
-        // Debug.Log("[Test] local : " + localIndex);
+
         if (localIndex == 0) { // en
             inkJSON_mouse = mouse_en;
             inkJSON_monster = monster_en;

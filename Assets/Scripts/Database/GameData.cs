@@ -5,7 +5,6 @@ using UnityEngine;
 [System.Serializable]
 public class GameData
 {
-    // public int hp;
     public int energy;
     public int day;
     public List<string> recipesCollected; // key : "type-id" : ex. Basic-0
@@ -13,6 +12,7 @@ public class GameData
     public int[] advDepth; // 숲, 바다, 광산, 오두막
     public bool isMineUnlocked; // 광산 지역 해금 
     public bool[] isCraftUnlocked; // 연구도구 해금
+    public List<InventoryData> inventoryList;
 
     public List<string> storyProgress;
     //  - mouse : true -> 쥐를 따돌림
@@ -22,7 +22,6 @@ public class GameData
     //  - complete : true -> 연구도구 완성
     //  - intro : true -> 인트로 단계 (New Game)
     //  - tutorial
-    public List<InventoryData> inventoryList;
 
     // Initialize Field
     public GameData() {

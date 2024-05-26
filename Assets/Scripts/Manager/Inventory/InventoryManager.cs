@@ -40,8 +40,6 @@ public class InventoryManager : MonoBehaviour, IDataInitialization
 
     // add to inventory
     public bool AddItem(ItemSO item, int count) {
-        // // TODO : cope with count issue
-
         // Check inventory type & Set slot index
         int slotIndex = TYPE_DICT[item.itemType.ToString()];
         InventorySlot[] inventorySlots = slotContainers[slotIndex].GetComponentsInChildren<InventorySlot>();
@@ -54,7 +52,6 @@ public class InventoryManager : MonoBehaviour, IDataInitialization
             // check child component for is inventory slot empty
             if (itemInSlot == null) {
                 SpawnNewItem(item, slot, count);
-                // inventoryDataList.Add(new InventoryData(i, 1, item.itemId, 1)); // @ Type(second parameter) fix for test
                 return true;
             }
 
@@ -62,14 +59,10 @@ public class InventoryManager : MonoBehaviour, IDataInitialization
             else if (itemInSlot.item == item && itemInSlot.count < MAX_COUNT && itemInSlot.item.stackable==true) {
                 itemInSlot.count += count;
                 itemInSlot.RefreshCount();
-
-                // InventoryData inventoryData = inventoryDataList.Find(x => x.slotId==i && x.slotType == 1);
-                // inventoryData.count = itemInSlot.count;
                 return true;
             }
         }
         return false;
-
     }
 
     private void SpawnNewItem(ItemSO item, InventorySlot slot, int count) {

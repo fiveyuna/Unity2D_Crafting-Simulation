@@ -214,7 +214,7 @@ public class CraftingManager : MonoBehaviour, IDataPersistence
         // Craft new item
         GameObject newItem = Instantiate(pfCreatedItem, outputSlot);
         newItem.GetComponent<Image>().sprite = item.image;
-        newItem.GetComponentInChildren<TextMeshProUGUI>().text = (ingredientsCount==1) ? "" : ingredientsCount.ToString();
+        newItem.GetComponentInChildren<TextMeshProUGUI>().text= (ingredientsCount==1) ? "" : ingredientsCount.ToString();
         
         // Set Get button
         getItemButton.gameObject.SetActive(true);

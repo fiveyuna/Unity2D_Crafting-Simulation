@@ -9,8 +9,7 @@ public class InventoryData
     public string slotType;
     public string itemId;
     public int count;
-
-
+    
     public InventoryData(int _slotId, string _slotType, string _itemId, int _count) {
         slotId = _slotId;
         slotType = _slotType;
